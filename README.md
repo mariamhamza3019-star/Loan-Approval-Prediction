@@ -58,6 +58,7 @@ The dataset contains loan applications with the following features:
 ## 🤖 Models Trained
 We tested multiple models for classification:  
 
+- **Logistic Regression**  
 - **Decision Tree**  
 - **Gradient Boosting (GBM)**  
 - **XGBoost (Extreme Gradient Boosting)**  
@@ -69,13 +70,14 @@ We tested multiple models for classification:
 
 | Model                  | Accuracy | Notes |
 |-------------------------|----------|-------|
+| Logistic Regression     | **0.82** | Good baseline model, interpretable |
 | Decision Tree           | **1.000** | Perfect fit, risk of overfitting |
 | Gradient Boosting (GBM) | **1.000** | Excellent performance |
 | XGBoost                 | **1.000** | Faster & optimized GBM |
 | Tree Ensemble (Bagging) | 0.9988   | Very strong |
 
-✅ All models achieved near-perfect accuracy, suggesting the dataset is highly separable.  
-⚠️ Possible **overfitting** due to perfect scores — should test on external/unseen data.  
+✅ Logistic Regression gives a solid **baseline (~82% accuracy)**.  
+✅ Tree-based methods achieve near-perfect accuracy, but may be **overfitting**.  
 
 ---
 
