@@ -70,7 +70,7 @@ We tested multiple models for classification:
 | Model                  | Accuracy | Notes |
 |-------------------------|----------|-------|
 | Logistic Regression     | **0.82** | Good baseline model, interpretable |
-| Decision Tree           | **1.000** | Perfect fit, risk of overfitting |
+| Decision Tree           | **0.96** | Perfect fit, risk of overfitting |
 | Gradient Boosting (GBM) | **1.000** | Excellent performance |
 | Tree Ensemble (Bagging) | 0.9988   | Very strong |
 
