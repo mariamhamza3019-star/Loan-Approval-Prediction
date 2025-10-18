@@ -59,8 +59,7 @@ The dataset contains loan applications with the following features:
 We tested multiple models for classification:  
 
 - **Logistic Regression**  
-- **Decision Tree**  
-- **Gradient Boosting (GBM)**    
+- **Decision Tree**    
 - **Tree Ensemble (Bagging)**  
 
 ---
